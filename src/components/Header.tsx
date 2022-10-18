@@ -1,7 +1,10 @@
 import React from "react";
 import "../Css/header.css";
+import Logo from "../Imagenes/logo-certidemy3.png";
 import { AiFillPhone } from "react-icons/ai";
 import { IoIosMail } from "react-icons/io";
+import { AiOutlineSearch } from "react-icons/ai";
+import { BsCartCheck } from "react-icons/bs";
 
 const Header = () => {
   return (
@@ -11,11 +14,10 @@ const Header = () => {
           <nav>
             <span>¿Tiene alguna consulta?</span>
             <a href="#">
-              {" "}
-              <AiFillPhone className="icon" /> +504 3349-1250{" "}
+              <AiFillPhone className="icon1" />+504 3349-1250
             </a>
             <a href="#">
-              <IoIosMail className="icon" /> info@certidemy.com
+              <IoIosMail className="icon1" />info@certidemy.com
             </a>
           </nav>
         </div>
@@ -28,17 +30,21 @@ const Header = () => {
         </div>
       </div>
 
+
+
       <div className="header-down">
         <div className="header-down-left">
-
+          <img src={Logo} alt="" />
         </div>
 
         <div className="header-down-right">
           <nav>
-            <a href="">Soy nuevo, quiero certificarme</a>
-            <a href="">Iniciar sesión</a>
-            <a href="">Soy nuevo, quiero certificarme</a>
-            <a href="">Iniciar sesión</a>
+            <a href="">INICIO</a>
+            <a href="">CERTIFICACIONES</a>
+            <a href="">VERIFICAR CREDENCIAL</a>
+            <a href="">NOSOTROS</a>
+            <a href="">< AiOutlineSearch className="icon2" id="icon2"/></a>
+            <a href=""><BsCartCheck className="icon2"/></a>
           </nav>
         </div>
       </div>
