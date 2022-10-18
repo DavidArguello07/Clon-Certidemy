@@ -5,9 +5,9 @@ import "../Css/picture.css";
 const Picture = () => {
   return (
     <>
-    <picture>
-        <img src={IMAGEN} alt="" className='imagen-principal'/>
-    </picture>
+    <div className='contenedor-imagen'>
+        <img src={IMAGEN} alt="Jovenes" className='imagen-principal'/>
+    </div>
     </>
   )
 }

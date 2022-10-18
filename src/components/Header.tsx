@@ -10,13 +10,33 @@ const Header = () => {
         <div className="header-up-left">
           <nav>
             <span>¿Tiene alguna consulta?</span>
-            <a href="#"> <AiFillPhone className="icon"/>  +504 3349-1250 </a>
-            <a href="#"><IoIosMail  className="icon"/>  info@certidemy.com</a>
+            <a href="#">
+              {" "}
+              <AiFillPhone className="icon" /> +504 3349-1250{" "}
+            </a>
+            <a href="#">
+              <IoIosMail className="icon" /> info@certidemy.com
+            </a>
           </nav>
         </div>
 
         <div className="header-up-right">
           <nav>
+            <a href="">Soy nuevo, quiero certificarme</a>
+            <a href="">Iniciar sesión</a>
+          </nav>
+        </div>
+      </div>
+
+      <div className="header-down">
+        <div className="header-down-left">
+
+        </div>
+
+        <div className="header-down-right">
+          <nav>
+            <a href="">Soy nuevo, quiero certificarme</a>
+            <a href="">Iniciar sesión</a>
             <a href="">Soy nuevo, quiero certificarme</a>
             <a href="">Iniciar sesión</a>
           </nav>
