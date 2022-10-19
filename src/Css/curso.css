@@ -1,0 +1,40 @@
+.contenedor-curso-principal{
+  width: 290px;
+  height: 435px;
+  border: 1px solid red;
+}
+
+.contenedor-curso-imagen{
+  width: 100%;
+  height: 50%;
+}
+
+.contenedor-curso-medio{
+  width: 100%;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items:flex-start;
+  margin-top: 40px;
+  border: red solid 1px;
+}
+
+.contenedor-curso-bajo{
+  display: flex;
+  width: 100%;
+  height: 58px;
+  justify-content:start;
+  align-items: center;
+  border: rgb(38, 0, 255) solid 1px;
+}
+
+
+/*Lista de curso */
+
+.contenedor-listacurso{
+  display: flex;
+  margin-left: 120px;
+  margin-right: 110px;
+  flex-wrap: wrap;
+  gap: 35px;
+}

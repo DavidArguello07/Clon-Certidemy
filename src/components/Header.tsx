@@ -14,10 +14,12 @@ const Header = () => {
           <nav>
             <span>¿Tiene alguna consulta?</span>
             <a href="#">
-              <AiFillPhone className="icon1" />+504 3349-1250
+              <AiFillPhone className="icon1" />
+              +504 3349-1250
             </a>
             <a href="#">
-              <IoIosMail className="icon1" />info@certidemy.com
+              <IoIosMail className="icon1" />
+              info@certidemy.com
             </a>
           </nav>
         </div>
@@ -30,8 +32,6 @@ const Header = () => {
         </div>
       </div>
 
-
-
       <div className="header-down">
         <div className="header-down-left">
           <img src={Logo} alt="" />
@@ -40,13 +40,43 @@ const Header = () => {
         <div className="header-down-right">
           <nav>
             <a href="">INICIO</a>
-            <a href="">CERTIFICACIONES</a>
+            <a href="">
+              <div className="dropdown">
+                <span>CERTIFICACIONES</span>
+                <div className="dropdown-content">
+                  <p>
+                    <div className="dropdown">
+                      <span>Agilidad</span>
+                      
+                    </div>
+                  </p>
+                  <p>Hola</p>
+                  <p>Hola</p>
+                  <p>Hola</p>
+                </div>
+              </div>
+            </a>
             <a href="">VERIFICAR CREDENCIAL</a>
-            <a href="">NOSOTROS</a>
-            <a href="">< AiOutlineSearch className="icon2" id="icon2"/></a>
-            <a href=""><BsCartCheck className="icon2"/></a>
+            <a href="">
+              <div className="dropdown">
+                <span>NOSOTROS</span>
+                <div className="dropdown-content">
+                  <p>Hola</p>
+                  <p>Hola</p>
+                  <p>Hola</p>
+                  <p>Hola</p>
+                </div>
+              </div>
+            </a>
+            <a href="">
+              <AiOutlineSearch className="icon2" id="icon2" />
+            </a>
+            <a href="">
+              <BsCartCheck className="icon2" />
+            </a>
           </nav>
         </div>
+
       </div>
     </div>
   );
