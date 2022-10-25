@@ -8,10 +8,10 @@ import Picture from "./components/picture";
 function App() {
   return (
     <>
-      {/* <header>
+      <header>
         <HEADER />
       </header>
-      <Picture /> */}
+      <Picture /> 
       <Listacurso />
     </>
   );

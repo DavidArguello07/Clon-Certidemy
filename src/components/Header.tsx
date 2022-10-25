@@ -41,32 +41,10 @@ const Header = () => {
           <nav>
             <a href="">INICIO</a>
             <a href="">
-              <div className="dropdown">
                 <span>CERTIFICACIONES</span>
-                <div className="dropdown-content">
-                  <p>
-                    <div className="dropdown">
-                      <span>Agilidad</span>
-                      
-                    </div>
-                  </p>
-                  <p>Hola</p>
-                  <p>Hola</p>
-                  <p>Hola</p>
-                </div>
-              </div>
             </a>
             <a href="">VERIFICAR CREDENCIAL</a>
             <a href="">
-              <div className="dropdown">
-                <span>NOSOTROS</span>
-                <div className="dropdown-content">
-                  <p>Hola</p>
-                  <p>Hola</p>
-                  <p>Hola</p>
-                  <p>Hola</p>
-                </div>
-              </div>
             </a>
             <a href="">
               <AiOutlineSearch className="icon2" id="icon2" />
