@@ -8,7 +8,7 @@ const Curso = () => {
   return (
     <>
       <div className="contenedor-curso-principal">
-        <img src="https://i0.wp.com/certidemy.com/wp-content/uploads/2020/04/CPPF2.jpg?resize=400%2C300&ssl=1" alt="" className='contenedor-curso-imagen'/>
+        <img src="https://i0.wp.com/certidemy.com/wp-content/uploads/2020/04/CPPF2.jpg?resize=400%2C300&ssl=1" alt="curso" className='contenedor-curso-imagen'/>
         <div className='contenedor-curso-medio'>
             <p>Certidemy</p> 
             <strong>C++ Foundation - CPPF</strong>

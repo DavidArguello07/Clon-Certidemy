@@ -1,80 +1,80 @@
-.header{
-    color: white;
-    width: 100%;
-    position:fixed;
-    z-index: 2;
+/* HEADER parte izquierda*/
+
+.header {
+  color: white;
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+	font-family:var(--letra-principal);
+	font-weight: 600;
 }
 
-.header .header-up{
-    display: flex;
-    justify-content:space-around;
-    height: auto;
-    font-size: 15px;
-    align-items: center;
-    flex-direction:row;
-    background-color: #111111;
-    padding: 2vh;
+.header .header-up {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 0.9rem;
+  background-color: #111111;
+  padding: 0.8rem;
 }
 
-.header .header-up .header-up-left{
-    color: #fff;
-    font-weight:600;
+.header .header-up .header-up-left {
+  display: flex;
+  color: #fff;
 }
 
-a{
-    text-decoration: none;
-    color: white;
-    /* margin-left: 15px; */
+.header .header-up .header-up-left .elemento-header-up-left {
+  margin-left: 1rem;
 }
 
-a:hover{
-    color: #fff;
-    text-decoration:underline;
+a {
+  text-decoration: none;
+  color: white;
 }
 
-.header .header-up .header-up-right{
-    font-weight:600;
-    line-height: 30px;
+a:hover {
+  color: #fff;
+  text-decoration: underline;
 }
 
-.icon1{
-    font-size: 20px; 
+.icon1 {
+  font-size: 1.2rem;
 }
 
+/* HEADER parte derecha*/
 
-
-.header .header-down{
-    font-size: 17px;
-    font-weight: 600;
-    line-height: 20px;
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content:space-around;
-    align-items: center;
-    padding: 2vh;
+.header .header-up .header-up-right {
+	display: flex;
 }
 
-
-
-/* .header .header-down .header-down-right{
-} */
-
-.icon2{
-    font-size: 30px;
+.header .header-up .header-up-right .elemento-header-up-right{
+	margin-left: 1rem;
 }
 
-#icon2:hover{
-    color: var(--color-principal);
-    transition: 0.4s;
+/*Header Parte de abajo*/
+
+.header .header-down {
+  font-size: 17px;
+  line-height: 20px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2vh;
 }
 
+.icon2 {
+  font-size: 30px;
+}
 
+#icon2:hover {
+  color: var(--color-principal);
+  transition: 0.4s;
+}
 
-
-
-  @media (max-width: 800px) {
-    .header .header-up{
-        flex-direction:column;
-    }
+@media (max-width: 800px) {
+  .header .header-up {
+    flex-direction: column;
   }
+}

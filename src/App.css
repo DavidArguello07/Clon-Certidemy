@@ -6,9 +6,7 @@
   padding: 0;
   box-sizing: border-box;
   --color-principal:rgb(255, 182, 6);
+  --letra-principal:'Roboto';
+  --letra-secundaria:'Roboto Slab';
 }
 
-html, body{
-  font-family: 'Roboto';
-/* font-family: 'Roboto Slab', serif; */
-}
